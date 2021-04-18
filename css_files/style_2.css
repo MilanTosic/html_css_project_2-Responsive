@@ -1,0 +1,392 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.programer_text
+{
+	font-family: Mukta Regular;
+	color:blue; font-weight: bold;
+}
+
+.navigation_text
+{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+ 	flex-wrap: wrap;
+	color: white; 
+	font-size: 25px; 
+	font-family: 'Mukta', sans-serif;
+	margin: 15px;
+}
+
+.navigation
+{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.order_position
+{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.order_color
+{
+	height: 104px;
+	display: flex;
+	background-color: black;
+	align-items: center;	
+}
+
+a:link, a:visited, a:active
+{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover 
+{
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.background_1
+{
+	width: 100%;
+	height: 80vh;
+	background: url(../images/web_programer_milan.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+		
+}
+
+.logo
+{
+	width: 70px;
+	height: 70px;
+	margin: 40px;
+
+}
+
+.title_milan_t
+{
+	font-family: 'Russo One', sans-serif;
+	font-size: 75px;
+	color:white;
+	line-height: 60px;
+	color: #081c48;
+	font-weight: normal; 
+}
+
+.text_about_me
+{
+
+	font-family: Arial, Bold;
+	text-indent: 40px;
+  	text-align: justify;
+  	line-height: 22px;
+  	margin-left: 347px;
+  	margin-bottom: 30px;
+}
+
+ .povrsina_naslov_about_me
+{
+	width: 80%;
+	height: 400px;
+	color:  #081c48;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+}
+
+.text_h1
+{
+	width:80%;
+	font-size:35px; 
+	display: flex;
+	justify-content: flex-start;
+	font-family: Arial, Bold;
+	margin-left: 360px;
+	margin-bottom: 15px;
+	background-repeat: no-repeat;
+}
+
+
+.main_div_naslov
+{
+	width:65%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+} 
+
+.web_programer_podnaslov
+{
+
+	font-family: 'Russo One', sans-serif;
+	font-size: 45px;
+	color:white;
+	margin-left: 300px;
+	color: #081c48;
+}
+
+.logo_2
+{
+	width: 130px;
+	height: 130px;
+}
+
+/* 0 - 640px = mobilni view
+641 - 1080px = tablet / manji laptop
+1080px + .. = računari
+
+*/
+
+.footer_div
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	color: white;
+	font-family: Arial, Bold;
+	font-size: 18px;
+}
+
+.contact_pozicija
+{
+	width: 100%;
+	height: 50vh;
+	display:flex;
+}
+
+.contact_me
+{
+	width: 40%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #081c48;
+	color: white;
+	font-family: Mukta, Bold;
+	font-size: 29px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.hidden_desktop
+	{
+	visibility: hidden;
+	}
+	
+
+@media only screen and (max-width: 640px) /* 0-640px = mobilni view */
+
+{
+	.text_about_me
+	{
+	font-size:11px;
+	font-family: Arial, Bold;
+	text-indent: 40px;
+  	text-align: justify;
+  	line-height: 20px;
+  	margin-left: 24px;
+  	margin-right: -60px;
+  	margin-bottom: 7px;
+  	}
+
+	.text_h1
+	{
+	width:80%;
+	font-size:35px; 
+	display: flex;
+	justify-content: left;
+	height: 1px;
+	font-size:25px; 
+	margin-left: 30px;
+	margin-bottom: 44px;
+	}
+
+	.footer_div
+	{
+	width: 102%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 77px;
+	font-family: Arial, Bold;
+	font-size: 12px;
+	}
+
+	.title_milan_t
+	{
+	width: 180px;
+	display: flex;
+	justify-content: flex-end;
+    font-family: 'Russo One', sans-serif;
+    font-size: 27px;
+    color: #081c48;
+    font-weight: normal;
+    margin-left: -71px;
+    margin-bottom: -18px;
+	}
+
+    .web_programer_podnaslov
+    {
+    font-size: 20px;
+    margin-left: -7px;
+    color: #081c48;
+    margin-bottom: 50px;	
+    }
+	
+	.contact_me
+	{
+	width: 50%;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #081c48;
+    color: white;
+    font-family: Mukta, Bold;
+    padding: -14px;
+	}
+
+	.footer
+	{
+	width: 50%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.main_div
+	{
+	display: flex;
+	justify-content: flex-start;
+	width: 364px;
+	height:76px;
+	background-color: black;
+	color: white;
+	margin: 20px auto;
+	}
+	
+	.icon_fa
+	{
+	display: flex;
+	justify-content: flex-end;
+	width: 360px;
+	height: 72px;
+	font-size: 30px;
+	padding: 28px;
+	}
+
+	.mt
+	{
+	display: flex;
+	justify-content: flex-start;
+	width: 360px;
+	height: 72px;
+	font-size: 20px;
+	padding: 22px;
+	margin-left: 10px;
+	margin-top: 6px;
+	font-family: 'Mukta', sans-serif;	
+	}
+
+	.navigation_text
+	{
+	margin: -22px;
+	}
+
+
+	.background_1
+	{
+	width: 100%;
+	height: 79vh;
+	background-position: 53% top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 278% auto;
+	}
+
+	.povrsina_naslov_about_me
+	{
+	width: 78%;
+	height: 430px;
+	color:  #081c48;
+	}
+
+	.vis_hidden
+	{
+	visibility: hidden;
+	}
+
+	.main_div_naslov
+	{
+	height: 100vh;
+	width: 71%;
+	}
+
+	.mobil_fit_icons
+	{
+	width: 100%;
+	margin: 0px;
+	visibility: visible;	
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	padding: 10px;
+
+ 	}
+	.vis_hidden2
+	{
+	visibility: visible;
+	}
+
+	.navigation
+	{
+	width: 100%;
+	height: 50px;
+	}
+
+	.logo
+	{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	}
+
+	.logo_2
+	{
+	width: 110px;
+	height: 110px;
+	}
+
+	.order_color 
+	{
+    height: 85px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+  	}

@@ -1,0 +1,24 @@
+.container4 
+{
+  position: relative;
+}
+
+.overlay4
+ {
+  position: absolute;
+  top: -15px;
+  bottom: 0;
+  left: -15px;
+  right: 0;
+  height: 90px;
+  width: 90px;
+  opacity: 1;
+  transition: .5s ease;
+}
+
+.container4:hover .overlay4 
+{
+  opacity: 1;
+  background: url(../images/php_logo_boja_overlay_boja_m.png);
+  background-repeat: no-repeat;
+}

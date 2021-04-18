@@ -1,0 +1,26 @@
+.container 
+{
+  position: relative;
+  
+}
+
+.overlay
+ {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  opacity: 1;
+  transition: .5s ease;
+  
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  background: url(../images/html5icon_boja_belo_m_overlay.png);
+  background-repeat: no-repeat;
+
+}

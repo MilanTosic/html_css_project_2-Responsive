@@ -1,0 +1,37 @@
+*
+{
+
+margin: 0;
+padding: 0;
+
+	}
+	.main_div
+	{
+	display: flex;
+	justify-content: flex-start;
+	width: 360px;
+	height:100px;
+	background-color: black;
+	color: white;
+	}
+
+	.icon_fa
+	{
+	display: flex;
+	justify-content: flex-end;
+	width: 360px;
+	height: 72px;
+	font-size: 30px;
+	padding: 20px;
+	}
+
+	.mt
+	{
+	display: flex;
+	justify-content: flex-start;
+	width: 360px;
+	height: 72px;
+	font-size: 20px;
+	padding: 22px;
+	font-family: 'Mukta', sans-serif;
+	{

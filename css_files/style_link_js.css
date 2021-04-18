@@ -1,0 +1,24 @@
+.container3 
+{
+  position: relative;
+
+}
+.overlay3
+ {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  left: 40px;
+  right: 0;
+  height: 70px;
+  width: 70px;
+  opacity: 1;
+  transition: .5s ease;
+}
+
+.container3:hover .overlay3 
+{
+  opacity: 1;
+  background: url(../images/js_logo_u_boji.png);
+  background-repeat: no-repeat;
+}
